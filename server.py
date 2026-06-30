@@ -2,7 +2,7 @@
 Flask server cho ứng dụng Emotion Detection.
 """
 from flask import Flask, render_template, request
-from EmotionDetection.emotion_detection import emotion_detector
+from emotion_detection import emotion_detector
 
 app = Flask("Emotion Detector")
 
